@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#9838F8"
+    android:textColor="#573C8B"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos de la persona:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/codigoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloTextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/correoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/codigoTextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/notaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/correoTextView"
+        android:text="Nota definitiva: 4.5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+</RelativeLayout>
